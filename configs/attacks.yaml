@@ -1,0 +1,181 @@
+- name: "Clean (No Attack)"
+  attack: null
+  params: {}
+
+- name: "FGSM (eps=0.001)"
+  attack: "MultiInputFGSM"
+  params:
+    eps: 0.001
+
+- name: "FGSM (eps=0.002)"
+  attack: "MultiInputFGSM"
+  params:
+    eps: 0.002
+
+- name: "FGSM (eps=0.005)"
+  attack: "MultiInputFGSM"
+  params:
+    eps: 0.005
+
+- name: "FGSM (eps=0.01)"
+  attack: "MultiInputFGSM"
+  params:
+    eps: 0.01
+
+- name: "FGSM (eps=0.02)"
+  attack: "MultiInputFGSM"
+  params:
+    eps: 0.02
+
+- name: "FGSM (eps=0.03)"
+  attack: "MultiInputFGSM"
+  params:
+    eps: 0.03
+
+- name: "FGSM (eps=0.04)"
+  attack: "MultiInputFGSM"
+  params:
+    eps: 0.04
+
+- name: "FGSM (eps=0.05)"
+  attack: "MultiInputFGSM"
+  params:
+    eps: 0.05
+
+- name: "FGSM (eps=0.075)"
+  attack: "MultiInputFGSM"
+  params:
+    eps: 0.075
+
+- name: "FGSM (eps=0.1)"
+  attack: "MultiInputFGSM"
+  params:
+    eps: 0.1
+
+- name: "PGD (eps=0.001, 10 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.001
+    steps: 10
+    alpha: 0.0025
+
+- name: "PGD (eps=0.002, 10 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.002
+    steps: 10
+    alpha: 0.0005
+
+- name: "PGD (eps=0.005, 10 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.005
+    steps: 10
+    alpha: 0.00125
+
+- name: "PGD (eps=0.01, 10 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.01
+    steps: 10
+    alpha: 0.0025
+
+- name: "PGD (eps=0.02, 10 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.02
+    steps: 10
+    alpha: 0.005
+
+- name: "PGD (eps=0.03, 10 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.03
+    steps: 10
+    alpha: 0.0075
+
+- name: "PGD (eps=0.05, 10 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.05
+    steps: 10
+    alpha: 0.0125
+
+- name: "PGD (eps=0.075, 10 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.075
+    steps: 10
+    alpha: 0.01875
+
+- name: "PGD (eps=0.1, 10 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.1
+    steps: 10
+    alpha: 0.025
+
+- name: "PGD (eps=0.001, 20 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.001
+    steps: 20
+    alpha: 0.00025
+
+- name: "PGD (eps=0.002, 20 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.002
+    steps: 20
+    alpha: 0.0005
+
+- name: "PGD (eps=0.005, 20 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.005
+    steps: 20
+    alpha: 0.00125
+
+- name: "PGD (eps=0.01, 20 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.01
+    steps: 20
+    alpha: 0.0025
+
+- name: "PGD (eps=0.02, 20 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.02
+    steps: 20
+    alpha: 0.005
+
+- name: "PGD (eps=0.03, 20 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.03
+    steps: 20
+    alpha: 0.0075
+
+- name: "PGD (eps=0.05, 20 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.05
+    steps: 20
+    alpha: 0.0125
+
+- name: "PGD (eps=0.075, 20 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.075
+    steps: 20
+    alpha: 0.01875
+
+- name: "PGD (eps=0.1, 20 steps)"
+  attack: "PGD_MultiInput"
+  params:
+    eps: 0.1
+    steps: 20
+    alpha: 0.025
+
+
